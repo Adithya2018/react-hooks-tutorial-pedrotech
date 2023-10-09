@@ -36,3 +36,61 @@
     transform: rotate(360deg);
   }
 }
+
+.switch{
+  display: flex;
+  width: 100vw;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.main{
+  margin: 16px;
+  border: solid 1px black;
+  padding: 1em;
+}
+
+label{
+  margin-right: 8px;
+}
+
+#light{
+  background-color: #f3ebf6;
+}
+
+#light .main{
+  background-color: #fff;
+}
+
+#light .main h1{
+  color: black;
+}
+
+#light .main p{
+  color: black;
+}
+
+#light .switch label{
+  color: black;
+}
+
+#dark{
+  background-color: #46045e;
+}
+
+#dark .main{
+  background-color: #38004c;
+}
+
+#dark .main h1{
+  color: white;
+}
+
+#dark .main p{
+  color: white;
+}
+
+#dark .switch label{
+  color: white;
+}
